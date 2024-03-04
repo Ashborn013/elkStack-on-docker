@@ -18,4 +18,5 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 systemctl enable docker
 systemctl start docker
 
-echo 'vm.max_map_count=262144' | sudo tee -a /etc/sysctl.conf
+#use this if you have max_map eroor
+# echo 'vm.max_map_count=262144' | sudo tee -a /etc/sysctl.conf 
